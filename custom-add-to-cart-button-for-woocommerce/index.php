@@ -3,7 +3,7 @@
  * Plugin Name: Ultimate Add To Cart Button For WooCommerce
  * Plugin URI:  https://www.binarycarpenter.com/ultimate-add-to-cart-button-for-woocommerce/
  * Description: All you need to customize add to cart button for WooCommerce
- * Version: 1.222.16
+ * Version: 1.222.17
  * Author: BinaryCarpenter.com
  * Author URI: https://www.binarycarpenter.com/
  * License: GPL2

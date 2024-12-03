@@ -42,7 +42,7 @@ use BinaryCarpenter\BC_ATC\Config as Config;
                         error_log('activation result: ' . $activation_result['message']);
                         if (!$activation_result['message'] == 'NO_LICENSE_KEY') {
                             Static_UI::notice($activation_result['message'], 'info', false, true);
-                        } else if ($activation_result['status'] && $activation_result['status'] == 'success') {
+                        } else if ($activation_result && $activation_result['status'] && $activation_result['status'] == 'success') {
                             Static_UI::notice($activation_result['message'], 'info', false, true);
                         } else {
                             //display activation form
